@@ -1,0 +1,39 @@
+{
+    "name": "sirjasongo/atk4acl",
+    "description": "ATK4 Access Control List Modeler",
+    "type": "library",
+    "keywords": [
+        "atk4",
+        "acl",
+        "permission",
+        "role",
+        "rbac",
+        "login"
+    ],
+    "homepage": "https://github.com/sirjasongo/atk4acl/",
+    "time": "2020-02-14",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Go",
+            "email": "jasongo@sparkresearch.net",
+            "homepage": "https://github.com/sirjasongo/atk4acl/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "jasongo@sparkresearch.net",
+        "issues": "https://github.com/sirjasongo/atk4acl/issues",
+        "docs": "https://github.com/sirjasongo/atk4acl/wiki"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "atk4/ui": "^2.0",
+        "sirjasongo/atk4m2m": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sirjasongo\\atk4acl\\": "src/"
+        }
+    }
+}
